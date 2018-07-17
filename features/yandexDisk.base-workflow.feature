@@ -24,7 +24,7 @@ Scenario: create new folder
     And I click the left button of the mouse
     And I click the right button on the "New folder" refference
    Then I see the dialogue windows with text 'Create'
-    And 1 field with typed text 'New folder'
+    And one field with typed text 'New folder'
     And "enable" button with text "Save"
    When I type nay name of folder 
     And push the button "Save"

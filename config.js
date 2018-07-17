@@ -17,6 +17,10 @@ exports.config = {
   capabilities: {
     'browserName': 'chrome'
   },
+  suites: {
+    login : './features/yandexDisk.login.feature',
+    base_workflow : './features/yandexDisk.base-workflow.feature'
+  },
   params: {
     login: {
       username: 'dzmitry.karneyenka',
